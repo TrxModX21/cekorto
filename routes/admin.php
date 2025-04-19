@@ -90,7 +90,7 @@ Route::middleware(['admin', 'admin.banned'])->group(function () {
         Route::get('/login/{id}', [ManageAdminController::class, 'login'])->name('login');
     });
 
-    Route::middleware('admin.super')->prefix('users')->as('users.')->group(function () {
+    Route::prefix('users')->as('users.')->group(function () {
         Route::get('/', [ManageUserController::class, 'allUsers'])->name('all');
         Route::get('/active', [ManageUserController::class, 'activeUsers'])->name('active');
         Route::get('/banned', [ManageUserController::class, 'bannedUsers'])->name('banned');

@@ -5,7 +5,7 @@
     // Filter menu berdasarkan role
     if ($role !== 'superadmin') {
         unset($sideBarLinks->manage_staffs);
-        unset($sideBarLinks->manage_users);
+        // unset($sideBarLinks->manage_users);
         unset($sideBarLinks->report);
         unset($sideBarLinks->system_setting);
         unset($sideBarLinks->extra);
