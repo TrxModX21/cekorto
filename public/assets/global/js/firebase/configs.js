@@ -1,0 +1,1 @@
+var firebaseConfig = {"apiKey":"AIzaSyB95O17nkkIGWI5kEYBvwyDlcBswSWSkh8","authDomain":"laravel-starter-3d1c3.firebaseapp.com","projectId":"laravel-starter-3d1c3","storageBucket":"laravel-starter-3d1c3.appspot.com","messagingSenderId":"1066845175582","appId":"1:1066845175582:web:23b0184233472aaae4530f","measurementId":"G-LH8NX265N8"}

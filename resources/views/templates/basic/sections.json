@@ -1,0 +1,87 @@
+{
+  "policy_pages": {
+    "builder": true,
+    "name": "Policy Pages",
+    "element": {
+      "title": "text",
+      "slug": "title",
+      "details": "textarea-nic",
+      "modal": false,
+      "seo": true
+    }
+  },
+  "login": {
+    "builder": true,
+    "no_selection": true,
+    "name": "Login Page",
+    "content": {
+      "images": {
+        "background_image": {
+          "size": "1920x800"
+        },
+        "image": {
+          "size": "690x550"
+        }
+      },
+      "form_title": "text"
+    }
+  },
+  "register": {
+    "builder": true,
+    "no_selection": true,
+    "name": "Register Page",
+    "content": {
+      "images": {
+        "background_image": {
+          "size": "1920x800"
+        },
+        "image": {
+          "size": "690x550"
+        }
+      },
+      "form_title": "text"
+    }
+  },
+  "register_disable": {
+    "builder": true,
+    "no_selection": true,
+    "name": "Registration Disabled Page",
+    "content": {
+      "images": {
+        "image": {
+          "size": "280x280"
+        }
+      },
+      "heading": "text",
+      "subheading": "text",
+      "button_url": "text",
+      "button_name": "text"
+    }
+  },
+  "diagnostic_page": {
+    "builder": true,
+    "no_selection": true,
+    "name": "Diagnostic Page",
+    "content": {
+      "help_content": "textarea-nic",
+      "brief_instruction_content": "textarea",
+      "possible_results_content": "textarea",
+      "selected_symptoms_content": "text",
+      "recomendation_content": "text"
+    }
+  },
+  "user_dashboard_page": {
+    "builder": true,
+    "no_selection": true,
+    "name": "User Dashboard Page",
+    "content": {
+      "images": {
+        "hero_image": {
+          "size": "1366x500"
+        }
+      },
+      "heading": "text",
+      "subheading": "textarea"
+    }
+  }
+}

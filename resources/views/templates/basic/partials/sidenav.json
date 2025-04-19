@@ -1,0 +1,70 @@
+{
+    "home_page": {
+        "keyword": [
+            "Home",
+            "Panel",
+            "Main hub"
+        ],
+        "title": "Home Page",
+        "icon": "las la-home",
+        "route_name": "home",
+        "menu_active": "home"
+    },
+    "diagnose": {
+        "keyword": [
+            "Check Disease",
+            "Diagnose",
+            "Check"
+        ],
+        "title": "Diagnose",
+        "icon": "las la-stethoscope",
+        "route_name": "diagnose.index",
+        "menu_active": "diagnose.index"
+    },
+    "sympton": {
+        "keyword": [
+            "Sympton List",
+            "Sympton Detail",
+            "Sympton Information"
+        ],
+        "title": "Sympton Information",
+        "icon": "las la-info-circle",
+        "route_name": "sympton.info",
+        "menu_active": "sympton.info"
+    },
+    "disease": {
+        "keyword": [
+            "Disease List",
+            "Disease Detail",
+            "Disease Information"
+        ],
+        "title": "Disease Information",
+        "icon": "las la-info-circle",
+        "route_name": "disease.info",
+        "menu_active": "disease.info"
+    },
+    "diagnose_history": {
+        "keyword": [
+            "Check History",
+            "Diagnose History",
+            "History"
+        ],
+        "title": "Diagnose History",
+        "icon": "las la-history",
+        "route_name": "diagnose.history",
+        "menu_active": "diagnose.history*"
+    },
+    "hospitals_map": {
+        "keyword": [
+            "Map",
+            "Navigation",
+            "Hospital Map",
+            "Hospital location",
+            "Location"
+        ],
+        "title": "Hospitals Map",
+        "icon": "las la-hospital",
+        "route_name": "hospitals",
+        "menu_active": "hospitals*"
+    }
+}

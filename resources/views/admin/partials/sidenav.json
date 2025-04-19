@@ -1,0 +1,336 @@
+{
+  "dashboard": {
+    "keyword": [
+      "Dashboard",
+      "Home",
+      "Panel",
+      "Admin",
+      "Control center",
+      "Overview",
+      "Main hub",
+      "Management hub",
+      "Administrative hub",
+      "Central hub",
+      "Command center",
+      "Administrator portal",
+      "Centralized interface",
+      "Admin console",
+      "Management dashboard",
+      "Main screen",
+      "Administrative dashboard",
+      "Command dashboard",
+      "Main control panel"
+    ],
+    "title": "Dashboard",
+    "icon": "las la-home",
+    "route_name": "admin.dashboard",
+    "menu_active": "admin.dashboard"
+  },
+  "disease": {
+    "keyword": ["Disease Management", "Disease", "Disease configuration"],
+    "title": "Manage Disease",
+    "icon": "las la-list",
+    "menu_active": "admin.disease*",
+    "route_name": "admin.disease.all"
+  },
+  "symptom": {
+    "keyword": ["Symptom management", "Symptom", "Symptom configuration"],
+    "title": "Symptom",
+    "icon": "las la-list",
+    "menu_active": "admin.symptom*",
+    "route_name": "admin.symptom.all"
+  },
+  "recommendation": {
+    "keyword": [
+      "Recommendation Management",
+      "Recommendation",
+      "Recommendation configuration"
+    ],
+    "title": "Recommendation List",
+    "icon": "las la-list",
+    "menu_active": "admin.recommendation.*",
+    "route_name": "admin.recommendation.all"
+  },
+  "chaining_forward": {
+    "title": "Disease Rule Base",
+    "icon": "las la-link",
+    "menu_active": "admin.chaining.*",
+    "submenu": [
+      {
+        "keyword": [
+          "Symptom forward chaining management",
+          "Symptom",
+          "Symptom forward chaining configuration",
+          "Disease forward chaining management",
+          "Disease",
+          "Disease forward chaining configuration"
+        ],
+        "title": "Symptom Connections",
+        "route_name": "admin.chaining.all",
+        "menu_active": "admin.chaining.all"
+      },
+      {
+        "keyword": [
+          "Recommendation forward chaining management",
+          "Recommendation",
+          "Recommendation forward chaining configuration",
+          "Disease forward chaining management",
+          "Disease",
+          "Disease forward chaining configuration"
+        ],
+        "title": "Recommendation Connections",
+        "route_name": "admin.chaining.recommendation.all",
+        "menu_active": "admin.chaining.recommendation.all"
+      }
+    ]
+  },
+  "hospitals_list": {
+    "keyword": [
+      "Hospital List",
+      "Hospital Management",
+      "Hospitals",
+      "Hospital Map"
+    ],
+    "title": "Manage Hospitals",
+    "icon": "las la-hospital",
+    "menu_active": "admin.hospitals*",
+    "route_name": "admin.hospitals.index"
+  },
+  "manage_staffs": {
+    "keyword": [
+      "all admins admins",
+      "Manage admins",
+      "Admin management",
+      "Admin control",
+      "Admin activity",
+      "Admin analytics"
+    ],
+    "title": "Manage Admin",
+    "icon": "las la-user-lock",
+    "menu_active": "admin.staffs*",
+    "route_name": "admin.staffs.all"
+  },
+  "manage_users": {
+    "title": "Manage Users",
+    "icon": "las la-users",
+    "counters": ["bannedUsersCount"],
+    "menu_active": "admin.users*",
+    "submenu": [
+      {
+        "keyword": [
+          "all users users",
+          "Manage Users",
+          "User management",
+          "User control",
+          "User activity",
+          "User analytics"
+        ],
+        "title": "All Users",
+        "route_name": "admin.users.all",
+        "menu_active": "admin.users.all"
+      },
+      {
+        "keyword": [
+          "active users",
+          "Manage Users",
+          "User management",
+          "User control",
+          "User status",
+          "User activity",
+          "User analytics"
+        ],
+        "title": "Active Users",
+        "route_name": "admin.users.active",
+        "menu_active": "admin.users.active"
+      },
+      {
+        "keyword": [
+          "banned users",
+          "Manage Users",
+          "User management",
+          "Account bans",
+          "User activity"
+        ],
+        "title": "Banned Users",
+        "route_name": "admin.users.banned",
+        "menu_active": "admin.users.banned",
+        "counter": "bannedUsersCount"
+      }
+    ]
+  },
+  "report": {
+    "title": "Report",
+    "icon": "la la-list",
+    "menu_active": "admin.report*",
+    "submenu": [
+      {
+        "keyword": [
+          "Login History",
+          "Login Report",
+          "Login Activity",
+          "User Login History"
+        ],
+        "title": "Login History",
+        "route_name": "admin.report.login.history",
+        "menu_active": [
+          "admin.report.login.history",
+          "admin.report.login.ipHistory"
+        ]
+      },
+      {
+        "keyword": [
+          "Notification History",
+          "Notification Report",
+          "Notifications",
+          "Notification Activity",
+          "Email History",
+          "Email Log",
+          "SMS History",
+          "SMS Log",
+          "Push Notification History",
+          "Push Notification Log"
+        ],
+        "title": "Notification History",
+        "route_name": "admin.report.notification.history",
+        "menu_active": "admin.report.notification.history"
+      }
+    ]
+  },
+  "system_setting": {
+    "keyword": [
+      "System Setting",
+      "setting",
+      "System configuration",
+      "System preferences",
+      "Configuration management",
+      "System setup"
+    ],
+    "title": "System Setting",
+    "icon": "las la-life-ring",
+    "route_name": "admin.setting.system",
+    "menu_active": [
+      "admin.setting.system",
+      "admin.setting.general",
+      "admin.setting.logo.icon",
+      "admin.setting.system.configuration",
+      "admin.setting.notification.global.email",
+      "admin.setting.notification.email",
+      "admin.setting.notification.templates",
+      "admin.setting.notification.template.edit",
+      "admin.setting.notification.global.sms",
+      "admin.setting.notification.sms",
+      "admin.setting.notification.global.push",
+      "admin.setting.notification.push",
+      "admin.frontend.index",
+      "admin.frontend.sections*",
+      "admin.setting.seo",
+      "admin.setting.maintenance.mode"
+    ]
+  },
+  "extra": {
+    "title": "Extra",
+    "icon": "la la-server",
+    "menu_active": "admin.system*",
+    "submenu": [
+      {
+        "keyword": [
+          "Application",
+          "System",
+          "Application management",
+          "Application settings",
+          "System information",
+          "version",
+          "laravel",
+          "timezone"
+        ],
+        "title": "Application",
+        "route_name": "admin.system.info",
+        "menu_active": "admin.system.info"
+      },
+      {
+        "keyword": [
+          "Server",
+          "System",
+          "Server management",
+          "Server settings",
+          "System information",
+          "version",
+          "php version",
+          "software",
+          "ip address",
+          "server ip address",
+          "server port",
+          "http host"
+        ],
+        "title": "Server",
+        "route_name": "admin.system.server.info",
+        "menu_active": "admin.system.server.info"
+      },
+      {
+        "keyword": [
+          "Cache",
+          "System",
+          "Cache management",
+          "Cache optimization",
+          "System performance",
+          "clear cache"
+        ],
+        "title": "Cache",
+        "route_name": "admin.system.optimize",
+        "menu_active": "admin.system.optimize"
+      },
+      {
+        "keyword": [
+          "Diagnose",
+          "System",
+          "Diagnose management",
+          "Diagnose reset",
+          "System reset",
+          "Reset Diagnose"
+        ],
+        "title": "Reset Diagnose Data",
+        "route_name": "admin.system.reset.diagnose.data",
+        "menu_active": "admin.system.reset.diagnose.data"
+      },
+      {
+        "keyword": [
+          "User",
+          "System",
+          "User management",
+          "User reset",
+          "System reset",
+          "Reset User"
+        ],
+        "title": "Reset User Account",
+        "route_name": "admin.system.reset.user",
+        "menu_active": "admin.system.reset.user"
+      },
+      {
+        "keyword": [
+          "Disease",
+          "System",
+          "Disease management",
+          "Disease reset",
+          "System reset",
+          "Reset Disease"
+        ],
+        "title": "Reset Disease Data",
+        "route_name": "admin.system.reset.disease",
+        "menu_active": "admin.system.reset.disease"
+      },
+      {
+        "keyword": [
+          "Symptom",
+          "System",
+          "Symptom management",
+          "Symptom reset",
+          "System reset",
+          "Reset Symptom"
+        ],
+        "title": "Reset Symptom Data",
+        "route_name": "admin.system.reset.symptom",
+        "menu_active": "admin.system.reset.symptom"
+      }
+    ]
+  }
+}
